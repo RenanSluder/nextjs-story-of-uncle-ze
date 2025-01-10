@@ -99,9 +99,3 @@ const styles = {
 };
 
 export default Home;
-
-export async function getStaticProps() {
-  return {
-    props: {}, // Props can be added here if needed in the future
-  };
-}
