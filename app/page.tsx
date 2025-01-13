@@ -1,3 +1,6 @@
+import React from 'react';
+import { CSSProperties } from 'react';
+
 const Home = () => {
   return (
     <div>
@@ -55,7 +58,7 @@ const Home = () => {
   );
 };
 
-const styles = {
+const styles: { [key: string]: CSSProperties } = {
   header: {
     backgroundColor: '#4CAF50',
     color: 'white',
